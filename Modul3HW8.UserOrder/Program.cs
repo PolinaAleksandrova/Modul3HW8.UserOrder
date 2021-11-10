@@ -2,10 +2,12 @@
 
 namespace Modul3HW8.UserOrder
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            Starter starter = new Starter();
+            starter.StartApplication();
         }
     }
 }
